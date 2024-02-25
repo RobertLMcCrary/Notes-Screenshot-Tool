@@ -7,7 +7,8 @@ import time
 driver = webdriver.Chrome()
 
 #starting the browser
-driver.get("https://google.com")
+url = "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.kennesaw.edu%2Fccse%2Ffirst-year-experience%2Fcse1322%2Fslides%2Fm4.2-recursion1.pptx&wdOrigin=BROWSELINK"
+driver.get(url)
 
 #starting screenshot number
 screenShotNumber = 0
